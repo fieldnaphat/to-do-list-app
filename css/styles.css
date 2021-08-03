@@ -1,0 +1,91 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: hsl(359, 94%, 79%);
+}
+
+
+.container {
+  padding: 20px;
+  /* width: 100%; */
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin: 4rem;
+  background: white;
+  border-radius: 5px;
+}
+
+.inputContainer {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+form {
+  display: inline-block;
+  width: 50%;
+}
+
+input {
+  /* padding: 4px 15px 4px 5px; */
+  width: 100%;
+  height: 2rem;
+  border-radius: 10px;
+  border: 1px solid hsl(0, 0%, 0%);
+}
+
+#SubmitButton {
+  display: inline-block;
+  background-color: hsl(359, 94%, 79%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 2px;
+  padding: 5px 15px;
+}
+
+#SubmitButton:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;
+  color: #000;
+  border-radius: 10px;
+}
+
+ol li:nth-child(even) {
+  background: hsl(0, 36%, 79%);
+}
+
+li>DeleteListBtn {
+  background: none;
+  border: none;
+  float: right;
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+  padding-right: 0.4rem;
+}
+
+li>DeleteListBtn:hover {
+  color: hsl(359, 100%, 48%);
+}
+
+.strike {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.delete {
+  display: none;
+}
